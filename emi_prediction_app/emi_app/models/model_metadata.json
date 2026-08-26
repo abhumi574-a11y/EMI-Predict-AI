@@ -1,0 +1,97 @@
+{
+  "best_classifier": "GradientBoostingClassifier",
+  "best_regressor": "RandomForestRegressor",
+  "classification_results": {
+    "LogisticRegression": {
+      "accuracy": 0.8506666666666667,
+      "precision": 0.8551254464002489,
+      "recall": 0.8506666666666667,
+      "f1_score": 0.8524912627653237,
+      "roc_auc": 0.9586231464737721,
+      "train_time_sec": 0.3569035530090332
+    },
+    "RandomForestClassifier": {
+      "accuracy": 0.9536666666666667,
+      "precision": 0.9532644000996354,
+      "recall": 0.9536666666666667,
+      "f1_score": 0.9529873289947803,
+      "roc_auc": 0.9950115742314862,
+      "train_time_sec": 2.604576349258423
+    },
+    "GradientBoostingClassifier": {
+      "accuracy": 0.96,
+      "precision": 0.9597698479665114,
+      "recall": 0.96,
+      "f1_score": 0.9598254413386246,
+      "roc_auc": 0.9965115877201687,
+      "train_time_sec": 14.685726165771484
+    }
+  },
+  "regression_results": {
+    "LinearRegression": {
+      "rmse": 1188.7905907245483,
+      "mae": 840.9420369001235,
+      "r2": 0.9743630696938753,
+      "mape": 0.3289016577195855,
+      "train_time_sec": 0.013460874557495117
+    },
+    "RandomForestRegressor": {
+      "rmse": 471.1580656344891,
+      "mae": 357.80102648380966,
+      "r2": 0.9959729356912767,
+      "mape": 0.07693039669154232,
+      "train_time_sec": 15.677247762680054
+    },
+    "GradientBoostingRegressor": {
+      "rmse": 496.490995994558,
+      "mae": 381.96203378435024,
+      "r2": 0.9955282444108404,
+      "mape": 0.0931355715290577,
+      "train_time_sec": 5.3998658657073975
+    }
+  },
+  "n_rows_trained_on": 15000,
+  "feature_names": [
+    "age",
+    "monthly_salary",
+    "years_of_employment",
+    "monthly_rent",
+    "family_size",
+    "dependents",
+    "school_fees",
+    "college_fees",
+    "travel_expenses",
+    "groceries_utilities",
+    "other_monthly_expenses",
+    "current_emi_amount",
+    "credit_score",
+    "bank_balance",
+    "emergency_fund",
+    "requested_amount",
+    "requested_tenure",
+    "total_monthly_expenses",
+    "disposable_income",
+    "debt_to_income_ratio",
+    "expense_to_income_ratio",
+    "affordability_ratio",
+    "savings_ratio",
+    "emergency_fund_months",
+    "estimated_emi",
+    "requested_dti_ratio",
+    "risk_score",
+    "gender_enc",
+    "marital_status_enc",
+    "education_enc",
+    "employment_type_enc",
+    "company_type_enc",
+    "house_type_enc",
+    "existing_loans_enc",
+    "emi_scenario_enc"
+  ],
+  "class_labels": [
+    "Eligible",
+    "High_Risk",
+    "Not_Eligible"
+  ],
+  "used_xgboost": false
+}
